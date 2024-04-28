@@ -15,6 +15,8 @@ module.exports = class Page {
         
         await webClient.url(process.env.APP_URL);
         await webClient.maximizeWindow();
+        console.log(process.env.APP_URL);
+
     }
 
 }

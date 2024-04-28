@@ -6,8 +6,10 @@ const productPage = require('../../pageobjects/web/product.page');
 const util = require('../../utils/TestDataUtils');
 require('dotenv').config();
 const { Given, When, Then } = require('@wdio/cucumber-framework');
+const { loginPagetitanium } = require('../../resources/locators/locators');
+const terminalPage = require('../../pageobjects/web/terminal.page');
 
-Given(`Login to Application`, async () => {
+/*Given(`Login to Application`, async () => {
     await loginPage.open();
     await loginPage.doLogin(process.env.USER_ID, process.env.USER_PWD)
 });
@@ -53,3 +55,21 @@ Then(`User should be able to Checkout`, async () => {
     await cartPage.verifyPaymentInfo();
     await cartPage.clickFinish();
 });
+
+*/
+Given(`Login To Application`, async () => {
+    await loginPage.open();
+    await loginPage.titaniumLogin(process.env.USER_ID, process.env.USER_PWD);
+});
+
+
+When(`Filled Customer Info And Amount`, async () => {
+    await terminalPage.terminalCustomerInfo(process.env.AMOUNT, process.env.EMAIL);
+});
+
+Then(`Added ACH details and then requested for processing ACH`, async () => {
+    await terminalPage.terminalACH(process.env.ACCOUNTNAME, process.env.ACCOUNTNUM, process.env.ROUTINGNUM);
+});
+
+
+

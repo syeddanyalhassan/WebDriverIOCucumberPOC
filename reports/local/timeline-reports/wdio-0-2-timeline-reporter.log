@@ -1,0 +1,111 @@
+{
+  "start": "2024-04-28T18:45:04.962Z",
+  "end": "2024-04-28T18:45:05.902Z",
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "browserName": "chrome",
+    "browserVersion": "124.0.6367.91",
+    "chrome": {
+      "chromedriverVersion": "124.0.6367.91 (51df0e5e17a8b0a4f281c1665dbd1b8a0c6b46af-refs/branch-heads/6367@{#984})",
+      "userDataDir": "C:\\Users\\DANYAL~1.HAS\\AppData\\Local\\Temp\\scoped_dir22864_2069101424"
+    },
+    "fedcm:accounts": true,
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:62565"
+    },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "windows",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webauthn:extension:credBlob": true,
+    "webauthn:extension:largeBlob": true,
+    "webauthn:extension:minPinLength": true,
+    "webauthn:extension:prf": true,
+    "webauthn:virtualAuthenticators": true,
+    "sessionId": "e787488644c3e1789be42ed1f27cf794"
+  },
+  "host": "localhost",
+  "port": 9515,
+  "baseUrl": "http://localhost",
+  "framework": "cucumber",
+  "mochaOpts": {
+    "timeout": 10000
+  },
+  "duration": 940,
+  "suites": [
+    {
+      "title": "Perform Transaction with ACH",
+      "duration": 22,
+      "start": "2024-04-28T18:45:05.765Z",
+      "end": "2024-04-28T18:45:05.787Z",
+      "tests": [
+        {
+          "title": "Given Login To Application",
+          "start": "2024-04-28T18:45:05.774Z",
+          "end": "2024-04-28T18:45:05.777Z",
+          "duration": 3,
+          "state": "failed",
+          "screenshots": [],
+          "error": {
+            "message": "Step \"Login To Application\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+            "stack": "Step \"Login To Application\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n\tat Feature(D:\\Boilerplate\\CucumberPOC\\test\\features\\feature-files\\web\\Flow04.feature):1:1\n\tat Scenario(Perform Transaction with ACH):3:1\n\tat Step(Login To Application):4:1\n"
+          }
+        },
+        {
+          "title": "When Filled Customer Info And Amount",
+          "start": "2024-04-28T18:45:05.778Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": []
+        },
+        {
+          "title": "Then Added ACH details and then requested for processing ACH",
+          "start": "2024-04-28T18:45:05.779Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": []
+        }
+      ],
+      "hooks": [
+        {
+          "start": "2024-04-28T18:45:05.768Z",
+          "end": "2024-04-28T18:45:05.771Z",
+          "duration": 3,
+          "title": "",
+          "associatedSuite": "0"
+        },
+        {
+          "start": "2024-04-28T18:45:05.781Z",
+          "end": "2024-04-28T18:45:05.782Z",
+          "duration": 1,
+          "title": "",
+          "associatedSuite": "0"
+        }
+      ]
+    },
+    {
+      "title": "Perform Transaction via Terminal",
+      "duration": 50,
+      "start": "2024-04-28T18:45:05.741Z",
+      "end": "2024-04-28T18:45:05.791Z",
+      "tests": [],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "file:///D:/Boilerplate/CucumberPOC/test/features/feature-files/web/Flow04.feature"
+  ],
+  "state": {
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0
+  }
+}

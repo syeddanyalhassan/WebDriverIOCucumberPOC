@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="1" errors="1" skipped="0">
+  <testsuite name="Perform Transaction via Terminal" timestamp="2024-04-28T23:45:05" time="0.05" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="Perform Transaction via Terminal"/>
+      <property name="capabilities" value="chrome.124_0_6367_91.windows"/>
+      <property name="featureFile" value="file:///D:/Boilerplate/CucumberPOC/test/features/feature-files/web/Flow04.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-chrome.124_0_6367_91.windows.Perform Transaction via Terminal" name="Perform Transaction with ACH" time="0.022">
+      <failure/>
+      <error message="Step &quot;Login To Application&quot; is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true."/>
+      <system-out><![CDATA[
+❗ Given Login To Application
+⚠️ When Filled Customer Info And Amount
+⚠️ Then Added ACH details and then requested for processing ACH
+]]></system-out>
+      <system-err><![CDATA[
+Step "Login To Application" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+	at Feature(D:\Boilerplate\CucumberPOC\test\features\feature-files\web\Flow04.feature):1:1
+	at Scenario(Perform Transaction with ACH):3:1
+	at Step(Login To Application):4:1
+
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

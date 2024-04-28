@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="1" failures="0" errors="0" skipped="0">
-  <testsuite name="End to End User flow" timestamp="2024-04-28T18:02:35" time="6.997" tests="1" failures="0" errors="0" skipped="0">
+<testsuites tests="1" failures="1" errors="1" skipped="0">
+  <testsuite name="End to End User flow" timestamp="2024-04-28T23:45:05" time="8.668" tests="1" failures="1" errors="1" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="featureName" value="End to End User flow"/>
       <property name="capabilities" value="chrome.124_0_6367_91.windows"/>
-      <property name="featureFile" value="file:///D:/Boilerplate/wdio-cucumber-poc/test/features/feature-files/web/Flow03.feature"/>
+      <property name="featureFile" value="file:///D:/Boilerplate/CucumberPOC/test/features/feature-files/web/Flow03.feature"/>
     </properties>
-    <testcase classname="CucumberJUnitReport-chrome.124_0_6367_91.windows.End to End User flow" name="User Checkout Flow" time="6.979">
+    <testcase classname="CucumberJUnitReport-chrome.124_0_6367_91.windows.End to End User flow" name="User Checkout Flow" time="8.651">
+      <failure/>
+      <error message="Step &quot;User should be able to Checkout&quot; is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true."/>
       <system-out><![CDATA[
-✅ Given Login to Application✅ Given Product selected✅ When Added to cart✅ Then Product should be visible in Cart page✅ And User should be able to Checkout
+✅ Given Login to Application❗ Given Product selected
+❗ When Added to cart
+❗ Then Product should be visible in Cart page
+❗ And User should be able to Checkout
 ]]></system-out>
+      <system-err><![CDATA[
+Step "User should be able to Checkout" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+	at Feature(D:\Boilerplate\CucumberPOC\test\features\feature-files\web\Flow03.feature):1:1
+	at Scenario(User Checkout Flow):3:1
+	at Step(User should be able to Checkout):8:1
+
+]]></system-err>
     </testcase>
   </testsuite>
 </testsuites>
