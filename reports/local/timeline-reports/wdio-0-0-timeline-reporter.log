@@ -1,0 +1,237 @@
+{
+  "start": "2024-04-28T13:02:34.631Z",
+  "end": "2024-04-28T13:02:42.530Z",
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "browserName": "chrome",
+    "browserVersion": "124.0.6367.91",
+    "chrome": {
+      "chromedriverVersion": "124.0.6367.91 (51df0e5e17a8b0a4f281c1665dbd1b8a0c6b46af-refs/branch-heads/6367@{#984})",
+      "userDataDir": "C:\\Users\\DANYAL~1.HAS\\AppData\\Local\\Temp\\scoped_dir13204_2033987013"
+    },
+    "fedcm:accounts": true,
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:56611"
+    },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "windows",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webauthn:extension:credBlob": true,
+    "webauthn:extension:largeBlob": true,
+    "webauthn:extension:minPinLength": true,
+    "webauthn:extension:prf": true,
+    "webauthn:virtualAuthenticators": true,
+    "sessionId": "e904639626b1fea715c1719365f25214"
+  },
+  "host": "localhost",
+  "port": 9515,
+  "baseUrl": "http://localhost",
+  "framework": "cucumber",
+  "mochaOpts": {
+    "timeout": 10000
+  },
+  "duration": 7899,
+  "suites": [
+    {
+      "title": "Verify Sort Functionality",
+      "duration": 4267,
+      "start": "2024-04-28T13:02:35.161Z",
+      "end": "2024-04-28T13:02:39.428Z",
+      "tests": [
+        {
+          "title": "Given Login to Application",
+          "start": "2024-04-28T13:02:35.165Z",
+          "end": "2024-04-28T13:02:39.060Z",
+          "duration": 3895,
+          "state": "passed",
+          "screenshots": [
+            "D:\\Boilerplate\\wdio-cucumber-poc\\reports\\local\\timeline-reports\\file-1714309359055.jpeg"
+          ]
+        },
+        {
+          "title": "When Sorting the page",
+          "start": "2024-04-28T13:02:39.060Z",
+          "end": "2024-04-28T13:02:39.147Z",
+          "duration": 87,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Then Products should get sorted",
+          "start": "2024-04-28T13:02:39.147Z",
+          "end": "2024-04-28T13:02:39.397Z",
+          "duration": 250,
+          "state": "passed",
+          "screenshots": [
+            "D:\\Boilerplate\\wdio-cucumber-poc\\reports\\local\\timeline-reports\\file-1714309359392.jpeg"
+          ]
+        }
+      ],
+      "hooks": [
+        {
+          "start": "2024-04-28T13:02:35.163Z",
+          "end": "2024-04-28T13:02:35.165Z",
+          "duration": 2,
+          "title": "",
+          "associatedSuite": "0"
+        },
+        {
+          "start": "2024-04-28T13:02:39.397Z",
+          "end": "2024-04-28T13:02:39.398Z",
+          "duration": 1,
+          "title": "",
+          "associatedSuite": "0"
+        }
+      ]
+    },
+    {
+      "title": "Add Product to cart and then remove",
+      "duration": 1649,
+      "start": "2024-04-28T13:02:39.429Z",
+      "end": "2024-04-28T13:02:41.078Z",
+      "tests": [
+        {
+          "title": "Given Product selected",
+          "start": "2024-04-28T13:02:39.430Z",
+          "end": "2024-04-28T13:02:39.655Z",
+          "duration": 225,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "When Added to cart",
+          "start": "2024-04-28T13:02:39.655Z",
+          "end": "2024-04-28T13:02:40.044Z",
+          "duration": 389,
+          "state": "passed",
+          "screenshots": [
+            "D:\\Boilerplate\\wdio-cucumber-poc\\reports\\local\\timeline-reports\\file-1714309360039.jpeg"
+          ]
+        },
+        {
+          "title": "Then Product should be visible in Cart page",
+          "start": "2024-04-28T13:02:40.044Z",
+          "end": "2024-04-28T13:02:40.713Z",
+          "duration": 669,
+          "state": "passed",
+          "screenshots": [
+            "D:\\Boilerplate\\wdio-cucumber-poc\\reports\\local\\timeline-reports\\file-1714309360712.jpeg"
+          ]
+        },
+        {
+          "title": "And User should be able to remove the product from Cart",
+          "start": "2024-04-28T13:02:40.713Z",
+          "end": "2024-04-28T13:02:41.072Z",
+          "duration": 359,
+          "state": "passed",
+          "screenshots": [
+            "D:\\Boilerplate\\wdio-cucumber-poc\\reports\\local\\timeline-reports\\file-1714309360898.jpeg"
+          ]
+        }
+      ],
+      "hooks": [
+        {
+          "start": "2024-04-28T13:02:39.429Z",
+          "end": "2024-04-28T13:02:39.430Z",
+          "duration": 1,
+          "title": "",
+          "associatedSuite": "1"
+        },
+        {
+          "start": "2024-04-28T13:02:41.073Z",
+          "end": "2024-04-28T13:02:41.074Z",
+          "duration": 1,
+          "title": "",
+          "associatedSuite": "1"
+        }
+      ]
+    },
+    {
+      "title": "Checkout Cancellation",
+      "duration": 1339,
+      "start": "2024-04-28T13:02:41.080Z",
+      "end": "2024-04-28T13:02:42.419Z",
+      "tests": [
+        {
+          "title": "Given Product selected",
+          "start": "2024-04-28T13:02:41.081Z",
+          "end": "2024-04-28T13:02:41.184Z",
+          "duration": 103,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "When Added to cart",
+          "start": "2024-04-28T13:02:41.185Z",
+          "end": "2024-04-28T13:02:41.514Z",
+          "duration": 329,
+          "state": "passed",
+          "screenshots": [
+            "D:\\Boilerplate\\wdio-cucumber-poc\\reports\\local\\timeline-reports\\file-1714309361511.jpeg"
+          ]
+        },
+        {
+          "title": "Then Product should be visible in Cart page",
+          "start": "2024-04-28T13:02:41.514Z",
+          "end": "2024-04-28T13:02:41.846Z",
+          "duration": 332,
+          "state": "passed",
+          "screenshots": [
+            "D:\\Boilerplate\\wdio-cucumber-poc\\reports\\local\\timeline-reports\\file-1714309361845.jpeg"
+          ]
+        },
+        {
+          "title": "And User should be able to cancel Checkout",
+          "start": "2024-04-28T13:02:41.846Z",
+          "end": "2024-04-28T13:02:42.418Z",
+          "duration": 572,
+          "state": "passed",
+          "screenshots": [
+            "D:\\Boilerplate\\wdio-cucumber-poc\\reports\\local\\timeline-reports\\file-1714309362417.jpeg"
+          ]
+        }
+      ],
+      "hooks": [
+        {
+          "start": "2024-04-28T13:02:41.081Z",
+          "end": "2024-04-28T13:02:41.081Z",
+          "duration": 0,
+          "title": "",
+          "associatedSuite": "2"
+        },
+        {
+          "start": "2024-04-28T13:02:42.418Z",
+          "end": "2024-04-28T13:02:42.418Z",
+          "duration": 0,
+          "title": "",
+          "associatedSuite": "2"
+        }
+      ]
+    },
+    {
+      "title": "Product Sort Functionality",
+      "duration": 7279,
+      "start": "2024-04-28T13:02:35.143Z",
+      "end": "2024-04-28T13:02:42.422Z",
+      "tests": [],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "file:///D:/Boilerplate/wdio-cucumber-poc/test/features/feature-files/web/Flow02.feature"
+  ],
+  "state": {
+    "passed": 11,
+    "failed": 0,
+    "skipped": 0
+  }
+}

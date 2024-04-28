@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="3" failures="0" errors="0" skipped="0">
+  <testsuite name="Product Sort Functionality" timestamp="2024-04-28T18:02:35" time="7.279" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="Product Sort Functionality"/>
+      <property name="capabilities" value="chrome.124_0_6367_91.windows"/>
+      <property name="featureFile" value="file:///D:/Boilerplate/wdio-cucumber-poc/test/features/feature-files/web/Flow02.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-chrome.124_0_6367_91.windows.Product Sort Functionality" name="Verify Sort Functionality" time="4.267">
+      <system-out><![CDATA[
+✅ Given Login to Application✅ When Sorting the page✅ Then Products should get sorted
+]]></system-out>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-chrome.124_0_6367_91.windows.Product Sort Functionality" name="Add Product to cart and then remove" time="1.649">
+      <system-out><![CDATA[
+✅ Given Product selected✅ When Added to cart✅ Then Product should be visible in Cart page✅ And User should be able to remove the product from Cart
+]]></system-out>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-chrome.124_0_6367_91.windows.Product Sort Functionality" name="Checkout Cancellation" time="1.339">
+      <system-out><![CDATA[
+✅ Given Product selected✅ When Added to cart✅ Then Product should be visible in Cart page✅ And User should be able to cancel Checkout
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

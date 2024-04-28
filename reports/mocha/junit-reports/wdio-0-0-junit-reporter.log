@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="4" failures="4" errors="4" skipped="0">
+  <testsuite name="Datadriven PoC" timestamp="2024-04-28T15:19:32" time="1.053" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Datadriven PoC"/>
+      <property name="capabilities" value=""/>
+      <property name="file" value="file:///D:/Boilerplate/wdio-cucumber-poc/test/specs/DataDriven1.spec.js"/>
+    </properties>
+  </testsuite>
+  <testsuite name="Flows Sheet1" timestamp="2024-04-28T15:19:33" time="0.105" tests="4" failures="4" errors="4" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Flows (Sheet1)"/>
+      <property name="capabilities" value=""/>
+      <property name="file" value="file:///D:/Boilerplate/wdio-cucumber-poc/test/specs/DataDriven1.spec.js"/>
+    </properties>
+    <testcase classname=".Datadriven_PoC.Flows_(Sheet1)" name="Invoke Flow01" time="0.034">
+      <failure/>
+      <error message="Cannot read properties of undefined (reading 'search_txtarea')"/>
+      <system-err><![CDATA[
+TypeError: Cannot read properties of undefined (reading 'search_txtarea')
+    at Google.doSearch (Google.page.js:10:49)
+    at Object.doSomething (Something.js:7:18)
+    at Context.<anonymous> (DataDriven1.spec.js:17:26)
+]]></system-err>
+    </testcase>
+    <testcase classname=".Datadriven_PoC.Flows_(Sheet1)" name="Invoke Flow02" time="0.011">
+      <failure/>
+      <error message="Cannot read properties of undefined (reading 'search_txtarea')"/>
+      <system-err><![CDATA[
+TypeError: Cannot read properties of undefined (reading 'search_txtarea')
+    at Google.doSearch (Google.page.js:10:49)
+    at Object.doSomething (Something.js:7:18)
+    at Context.<anonymous> (DataDriven1.spec.js:17:26)
+]]></system-err>
+    </testcase>
+    <testcase classname=".Datadriven_PoC.Flows_(Sheet1)" name="Invoke Flow03" time="0.02">
+      <failure/>
+      <error message="Cannot read properties of undefined (reading 'search_txtarea')"/>
+      <system-err><![CDATA[
+TypeError: Cannot read properties of undefined (reading 'search_txtarea')
+    at Google.doSearch (Google.page.js:10:49)
+    at Object.doSomething (Something.js:7:18)
+    at Context.<anonymous> (DataDriven1.spec.js:17:26)
+]]></system-err>
+    </testcase>
+    <testcase classname=".Datadriven_PoC.Flows_(Sheet1)" name="Invoke Flow04" time="0.01">
+      <failure/>
+      <error message="Cannot read properties of undefined (reading 'search_txtarea')"/>
+      <system-out><![CDATA[
+COMMAND: DELETE /session/undefined - {}
+COMMAND: DELETE /session/undefined - {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+TypeError: Cannot read properties of undefined (reading 'search_txtarea')
+    at Google.doSearch (Google.page.js:10:49)
+    at Object.doSomething (Something.js:7:18)
+    at Context.<anonymous> (DataDriven1.spec.js:17:26)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

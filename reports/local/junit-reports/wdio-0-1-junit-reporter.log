@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="End to End User flow" timestamp="2024-04-28T18:02:35" time="6.997" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="End to End User flow"/>
+      <property name="capabilities" value="chrome.124_0_6367_91.windows"/>
+      <property name="featureFile" value="file:///D:/Boilerplate/wdio-cucumber-poc/test/features/feature-files/web/Flow03.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-chrome.124_0_6367_91.windows.End to End User flow" name="User Checkout Flow" time="6.979">
+      <system-out><![CDATA[
+✅ Given Login to Application✅ Given Product selected✅ When Added to cart✅ Then Product should be visible in Cart page✅ And User should be able to Checkout
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

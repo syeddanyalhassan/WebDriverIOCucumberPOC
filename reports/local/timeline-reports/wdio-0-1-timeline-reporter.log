@@ -1,0 +1,134 @@
+{
+  "start": "2024-04-28T13:02:34.736Z",
+  "end": "2024-04-28T13:02:42.319Z",
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "browserName": "chrome",
+    "browserVersion": "124.0.6367.91",
+    "chrome": {
+      "chromedriverVersion": "124.0.6367.91 (51df0e5e17a8b0a4f281c1665dbd1b8a0c6b46af-refs/branch-heads/6367@{#984})",
+      "userDataDir": "C:\\Users\\DANYAL~1.HAS\\AppData\\Local\\Temp\\scoped_dir13204_1384586580"
+    },
+    "fedcm:accounts": true,
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:56610"
+    },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "windows",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webauthn:extension:credBlob": true,
+    "webauthn:extension:largeBlob": true,
+    "webauthn:extension:minPinLength": true,
+    "webauthn:extension:prf": true,
+    "webauthn:virtualAuthenticators": true,
+    "sessionId": "79d4fa1500c4d7d993d50b9dc3e4e2c4"
+  },
+  "host": "localhost",
+  "port": 9515,
+  "baseUrl": "http://localhost",
+  "framework": "cucumber",
+  "mochaOpts": {
+    "timeout": 10000
+  },
+  "duration": 7583,
+  "suites": [
+    {
+      "title": "User Checkout Flow",
+      "duration": 6979,
+      "start": "2024-04-28T13:02:35.209Z",
+      "end": "2024-04-28T13:02:42.188Z",
+      "tests": [
+        {
+          "title": "Given Login to Application",
+          "start": "2024-04-28T13:02:35.214Z",
+          "end": "2024-04-28T13:02:38.513Z",
+          "duration": 3299,
+          "state": "passed",
+          "screenshots": [
+            "D:\\Boilerplate\\wdio-cucumber-poc\\reports\\local\\timeline-reports\\file-1714309358508.jpeg"
+          ]
+        },
+        {
+          "title": "Given Product selected",
+          "start": "2024-04-28T13:02:38.513Z",
+          "end": "2024-04-28T13:02:38.853Z",
+          "duration": 340,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "When Added to cart",
+          "start": "2024-04-28T13:02:38.854Z",
+          "end": "2024-04-28T13:02:39.160Z",
+          "duration": 306,
+          "state": "passed",
+          "screenshots": [
+            "D:\\Boilerplate\\wdio-cucumber-poc\\reports\\local\\timeline-reports\\file-1714309359155.jpeg"
+          ]
+        },
+        {
+          "title": "Then Product should be visible in Cart page",
+          "start": "2024-04-28T13:02:39.160Z",
+          "end": "2024-04-28T13:02:40.245Z",
+          "duration": 1085,
+          "state": "passed",
+          "screenshots": [
+            "D:\\Boilerplate\\wdio-cucumber-poc\\reports\\local\\timeline-reports\\file-1714309360244.jpeg"
+          ]
+        },
+        {
+          "title": "And User should be able to Checkout",
+          "start": "2024-04-28T13:02:40.245Z",
+          "end": "2024-04-28T13:02:42.183Z",
+          "duration": 1938,
+          "state": "passed",
+          "screenshots": [
+            "D:\\Boilerplate\\wdio-cucumber-poc\\reports\\local\\timeline-reports\\file-1714309361401.jpeg",
+            "D:\\Boilerplate\\wdio-cucumber-poc\\reports\\local\\timeline-reports\\file-1714309362181.jpeg"
+          ]
+        }
+      ],
+      "hooks": [
+        {
+          "start": "2024-04-28T13:02:35.211Z",
+          "end": "2024-04-28T13:02:35.213Z",
+          "duration": 2,
+          "title": "",
+          "associatedSuite": "0"
+        },
+        {
+          "start": "2024-04-28T13:02:42.184Z",
+          "end": "2024-04-28T13:02:42.184Z",
+          "duration": 0,
+          "title": "",
+          "associatedSuite": "0"
+        }
+      ]
+    },
+    {
+      "title": "End to End User flow",
+      "duration": 6998,
+      "start": "2024-04-28T13:02:35.193Z",
+      "end": "2024-04-28T13:02:42.191Z",
+      "tests": [],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "file:///D:/Boilerplate/wdio-cucumber-poc/test/features/feature-files/web/Flow03.feature"
+  ],
+  "state": {
+    "passed": 5,
+    "failed": 0,
+    "skipped": 0
+  }
+}
